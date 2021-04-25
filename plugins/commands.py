@@ -7,7 +7,16 @@ from script import script  # pylint:disable=import-error
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(client: Client, message: Message):
     try:
-        await message.reply_text(
+        await message.reply_text(Hai, Follow these Steps..
+
+🌀 Send me any Image to Edit..
+
+🌀 Select the Corresponding mode that you need
+
+🌀 Your Edited Image will be Uploaded 
+
+
+© @Mega_Bots_Updates)
             text=script.START_MSG.format(message.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -59,7 +68,9 @@ async def help(client, message):
 @Client.on_message(filters.command(["about"]) & filters.private)
 async def about(client, message):
     try:
-        await message.reply_text(
+        await message.reply_text(⭕️My Name : Image Editor
+
+⭕️Language : Python3)
             text=script.ABOUT_MSG,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(

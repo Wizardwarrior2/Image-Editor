@@ -111,7 +111,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "😇 𝗨𝗽𝗱𝗮𝘁𝗶𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url="https://t.me/Mega_Bots_Updates"
                     )
                 ],
             ]
@@ -131,7 +131,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "😇 𝗨𝗽𝗱𝗮𝘁𝗶𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url="https://t.me/Mega_Bots_Updates"
                     )
                 ],
             ]
@@ -148,7 +148,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Image-Editor"
+                        "😇 𝗨𝗽𝗱𝗮𝘁𝗶𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹", url="https://t.me/Mega_Bots_Updates"
                     )
                 ],
             ]

@@ -1,4 +1,5 @@
-# By @Mega_Bots_Updates
+
+# By @TroJanzHEX
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram import Client, filters
 from script import script  # pylint:disable=import-error
@@ -7,16 +8,7 @@ from script import script  # pylint:disable=import-error
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(client: Client, message: Message):
     try:
-        await message.reply_text(Hai, Follow these Steps..
-
-🌀 Send me any Image to Edit..
-
-🌀 Select the Corresponding mode that you need
-
-🌀 Your Edited Image will be Uploaded 
-
-
-© @Mega_Bots_Updates)
+        await message.reply_text(
             text=script.START_MSG.format(message.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -27,8 +19,8 @@ async def start(client: Client, message: Message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "💎 𝗨𝗽𝗱𝗮𝘁𝗶𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹",
-                            url="https://t.me/Mega_Bots_Updates",
+                            "SOURCE CODE",
+                            url="https://github.com/TroJanzHEX/Image-Editor",
                         )
                     ],
                 ]
@@ -53,8 +45,8 @@ async def help(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "💎 𝗨𝗽𝗱𝗮𝘁𝗶𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹",
-                            url="https://t.me/Mega_Bots_Updates",
+                            "SOURCE CODE",
+                            url="https://github.com/TroJanzHEX/Image-Editor",
                         )
                     ],
                 ]
@@ -68,9 +60,7 @@ async def help(client, message):
 @Client.on_message(filters.command(["about"]) & filters.private)
 async def about(client, message):
     try:
-        await message.reply_text(⭕️My Name : Image Editor
-
-⭕️Language : Python3)
+        await message.reply_text(
             text=script.ABOUT_MSG,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -81,8 +71,8 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "💎 𝗨𝗽𝗱𝗮𝘁𝗶𝗼𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹",
-                            url="https://t.me/Mega_Bots_Updates",
+                            "SOURCE CODE",
+                            url="https://github.com/TroJanzHEX/Image-Editor",
                         )
                     ],
                 ]
